@@ -1,0 +1,175 @@
+[03-Aug-2016 18:37:13 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, class 'ReduxFramework' does not have a method '_options_page' in /home/ubuntu/workspace/wp-includes/plugin.php on line 525
+[03-Aug-2016 18:37:13 UTC] PHP Stack trace:
+[03-Aug-2016 18:37:13 UTC] PHP   1. {main}() /home/ubuntu/workspace/wp-admin/customize.php:0
+[03-Aug-2016 18:37:13 UTC] PHP   2. require_once() /home/ubuntu/workspace/wp-admin/customize.php:13
+[03-Aug-2016 18:37:13 UTC] PHP   3. require() /home/ubuntu/workspace/wp-admin/admin.php:138
+[03-Aug-2016 18:37:13 UTC] PHP   4. require_once() /home/ubuntu/workspace/wp-admin/menu.php:282
+[03-Aug-2016 18:37:13 UTC] PHP   5. do_action() /home/ubuntu/workspace/wp-admin/includes/menu.php:149
+[03-Aug-2016 18:37:13 UTC] PHP   6. call_user_func_array:{/home/ubuntu/workspace/wp-includes/plugin.php:525}() /home/ubuntu/workspace/wp-includes/plugin.php:525
+[03-Aug-2016 18:39:39 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, class 'ReduxFramework' does not have a method '_options_page' in /home/ubuntu/workspace/wp-includes/plugin.php on line 525
+[03-Aug-2016 18:39:39 UTC] PHP Stack trace:
+[03-Aug-2016 18:39:39 UTC] PHP   1. {main}() /home/ubuntu/workspace/wp-admin/admin.php:0
+[03-Aug-2016 18:39:39 UTC] PHP   2. require() /home/ubuntu/workspace/wp-admin/admin.php:138
+[03-Aug-2016 18:39:39 UTC] PHP   3. require_once() /home/ubuntu/workspace/wp-admin/menu.php:282
+[03-Aug-2016 18:39:39 UTC] PHP   4. do_action() /home/ubuntu/workspace/wp-admin/includes/menu.php:149
+[03-Aug-2016 18:39:39 UTC] PHP   5. call_user_func_array:{/home/ubuntu/workspace/wp-includes/plugin.php:525}() /home/ubuntu/workspace/wp-includes/plugin.php:525
+[03-Aug-2016 18:39:48 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, class 'ReduxFramework' does not have a method '_options_page' in /home/ubuntu/workspace/wp-includes/plugin.php on line 525
+[03-Aug-2016 18:39:48 UTC] PHP Stack trace:
+[03-Aug-2016 18:39:48 UTC] PHP   1. {main}() /home/ubuntu/workspace/wp-admin/customize.php:0
+[03-Aug-2016 18:39:48 UTC] PHP   2. require_once() /home/ubuntu/workspace/wp-admin/customize.php:13
+[03-Aug-2016 18:39:48 UTC] PHP   3. require() /home/ubuntu/workspace/wp-admin/admin.php:138
+[03-Aug-2016 18:39:48 UTC] PHP   4. require_once() /home/ubuntu/workspace/wp-admin/menu.php:282
+[03-Aug-2016 18:39:48 UTC] PHP   5. do_action() /home/ubuntu/workspace/wp-admin/includes/menu.php:149
+[03-Aug-2016 18:39:48 UTC] PHP   6. call_user_func_array:{/home/ubuntu/workspace/wp-includes/plugin.php:525}() /home/ubuntu/workspace/wp-includes/plugin.php:525
+[03-Aug-2016 18:43:34 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, class 'ReduxFramework' does not have a method '_options_page' in /home/ubuntu/workspace/wp-includes/plugin.php on line 525
+[03-Aug-2016 18:43:34 UTC] PHP Stack trace:
+[03-Aug-2016 18:43:34 UTC] PHP   1. {main}() /home/ubuntu/workspace/wp-admin/admin.php:0
+[03-Aug-2016 18:43:34 UTC] PHP   2. require() /home/ubuntu/workspace/wp-admin/admin.php:138
+[03-Aug-2016 18:43:34 UTC] PHP   3. require_once() /home/ubuntu/workspace/wp-admin/menu.php:282
+[03-Aug-2016 18:43:34 UTC] PHP   4. do_action() /home/ubuntu/workspace/wp-admin/includes/menu.php:149
+[03-Aug-2016 18:43:34 UTC] PHP   5. call_user_func_array:{/home/ubuntu/workspace/wp-includes/plugin.php:525}() /home/ubuntu/workspace/wp-includes/plugin.php:525
+[03-Aug-2016 18:43:35 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, class 'ReduxFramework' does not have a method '_options_page' in /home/ubuntu/workspace/wp-includes/plugin.php on line 525
+[03-Aug-2016 18:43:35 UTC] PHP Stack trace:
+[03-Aug-2016 18:43:35 UTC] PHP   1. {main}() /home/ubuntu/workspace/wp-admin/customize.php:0
+[03-Aug-2016 18:43:35 UTC] PHP   2. require_once() /home/ubuntu/workspace/wp-admin/customize.php:13
+[03-Aug-2016 18:43:35 UTC] PHP   3. require() /home/ubuntu/workspace/wp-admin/admin.php:138
+[03-Aug-2016 18:43:35 UTC] PHP   4. require_once() /home/ubuntu/workspace/wp-admin/menu.php:282
+[03-Aug-2016 18:43:35 UTC] PHP   5. do_action() /home/ubuntu/workspace/wp-admin/includes/menu.php:149
+[03-Aug-2016 18:43:35 UTC] PHP   6. call_user_func_array:{/home/ubuntu/workspace/wp-includes/plugin.php:525}() /home/ubuntu/workspace/wp-includes/plugin.php:525
+[03-Aug-2016 18:43:39 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, class 'ReduxFramework' does not have a method '_options_page' in /home/ubuntu/workspace/wp-includes/plugin.php on line 525
+[03-Aug-2016 18:43:39 UTC] PHP Stack trace:
+[03-Aug-2016 18:43:39 UTC] PHP   1. {main}() /home/ubuntu/workspace/wp-admin/admin.php:0
+[03-Aug-2016 18:43:39 UTC] PHP   2. require() /home/ubuntu/workspace/wp-admin/admin.php:138
+[03-Aug-2016 18:43:39 UTC] PHP   3. require_once() /home/ubuntu/workspace/wp-admin/menu.php:282
+[03-Aug-2016 18:43:39 UTC] PHP   4. do_action() /home/ubuntu/workspace/wp-admin/includes/menu.php:149
+[03-Aug-2016 18:43:39 UTC] PHP   5. call_user_func_array:{/home/ubuntu/workspace/wp-includes/plugin.php:525}() /home/ubuntu/workspace/wp-includes/plugin.php:525
+[03-Aug-2016 18:43:42 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, class 'ReduxFramework' does not have a method '_options_page' in /home/ubuntu/workspace/wp-includes/plugin.php on line 525
+[03-Aug-2016 18:43:42 UTC] PHP Stack trace:
+[03-Aug-2016 18:43:42 UTC] PHP   1. {main}() /home/ubuntu/workspace/wp-admin/themes.php:0
+[03-Aug-2016 18:43:42 UTC] PHP   2. require_once() /home/ubuntu/workspace/wp-admin/themes.php:10
+[03-Aug-2016 18:43:42 UTC] PHP   3. require() /home/ubuntu/workspace/wp-admin/admin.php:138
+[03-Aug-2016 18:43:42 UTC] PHP   4. require_once() /home/ubuntu/workspace/wp-admin/menu.php:282
+[03-Aug-2016 18:43:42 UTC] PHP   5. do_action() /home/ubuntu/workspace/wp-admin/includes/menu.php:149
+[03-Aug-2016 18:43:42 UTC] PHP   6. call_user_func_array:{/home/ubuntu/workspace/wp-includes/plugin.php:525}() /home/ubuntu/workspace/wp-includes/plugin.php:525
+[03-Aug-2016 18:43:46 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, class 'ReduxFramework' does not have a method '_options_page' in /home/ubuntu/workspace/wp-includes/plugin.php on line 525
+[03-Aug-2016 18:43:46 UTC] PHP Stack trace:
+[03-Aug-2016 18:43:46 UTC] PHP   1. {main}() /home/ubuntu/workspace/wp-admin/themes.php:0
+[03-Aug-2016 18:43:46 UTC] PHP   2. require_once() /home/ubuntu/workspace/wp-admin/themes.php:10
+[03-Aug-2016 18:43:46 UTC] PHP   3. require() /home/ubuntu/workspace/wp-admin/admin.php:138
+[03-Aug-2016 18:43:46 UTC] PHP   4. require_once() /home/ubuntu/workspace/wp-admin/menu.php:282
+[03-Aug-2016 18:43:46 UTC] PHP   5. do_action() /home/ubuntu/workspace/wp-admin/includes/menu.php:149
+[03-Aug-2016 18:43:46 UTC] PHP   6. call_user_func_array:{/home/ubuntu/workspace/wp-includes/plugin.php:525}() /home/ubuntu/workspace/wp-includes/plugin.php:525
+[03-Aug-2016 19:38:16 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/ubuntu/workspace/wp-includes/formatting.php:4596) in /home/ubuntu/workspace/wp-includes/pluggable.php on line 1167
+[03-Aug-2016 19:38:16 UTC] PHP Stack trace:
+[03-Aug-2016 19:38:16 UTC] PHP   1. {main}() /home/ubuntu/workspace/wp-admin/admin.php:0
+[03-Aug-2016 19:38:16 UTC] PHP   2. do_action() /home/ubuntu/workspace/wp-admin/admin.php:236
+[03-Aug-2016 19:38:16 UTC] PHP   3. call_user_func_array:{/home/ubuntu/workspace/wp-includes/plugin.php:525}() /home/ubuntu/workspace/wp-includes/plugin.php:525
+[03-Aug-2016 19:38:16 UTC] PHP   4. Carouselck->render_edit() /home/ubuntu/workspace/wp-includes/plugin.php:525
+[03-Aug-2016 19:38:16 UTC] PHP   5. require_once() /home/ubuntu/workspace/wp-content/plugins/carousel-ck/carousel-ck.php:230
+[03-Aug-2016 19:38:16 UTC] PHP   6. wp_redirect() /home/ubuntu/workspace/wp-content/plugins/carousel-ck/includes/carouselck_edit.php:67
+[03-Aug-2016 19:38:16 UTC] PHP   7. header() /home/ubuntu/workspace/wp-includes/pluggable.php:1167
+[03-Aug-2016 19:38:35 UTC] PHP Warning:  Creating default object from empty value in /home/ubuntu/workspace/wp-content/plugins/carousel-ck/carousel-ck.php on line 365
+[03-Aug-2016 19:38:35 UTC] PHP Stack trace:
+[03-Aug-2016 19:38:35 UTC] PHP   1. {main}() /home/ubuntu/workspace/wp-admin/admin-ajax.php:0
+[03-Aug-2016 19:38:35 UTC] PHP   2. do_action() /home/ubuntu/workspace/wp-admin/admin-ajax.php:89
+[03-Aug-2016 19:38:35 UTC] PHP   3. call_user_func_array:{/home/ubuntu/workspace/wp-includes/plugin.php:525}() /home/ubuntu/workspace/wp-includes/plugin.php:525
+[03-Aug-2016 19:38:35 UTC] PHP   4. Carouselck->ajax_add_slide() /home/ubuntu/workspace/wp-includes/plugin.php:525
+[03-Aug-2016 19:38:35 UTC] PHP   5. Carouselck->add_slide() /home/ubuntu/workspace/wp-content/plugins/carousel-ck/carousel-ck.php:238
+[03-Aug-2016 19:38:35 UTC] PHP   6. Carouselck->clean_options() /home/ubuntu/workspace/wp-content/plugins/carousel-ck/carousel-ck.php:249
+[03-Aug-2016 19:45:34 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/ubuntu/workspace/wp-includes/formatting.php:4596) in /home/ubuntu/workspace/wp-includes/pluggable.php on line 1167
+[03-Aug-2016 19:45:34 UTC] PHP Stack trace:
+[03-Aug-2016 19:45:34 UTC] PHP   1. {main}() /home/ubuntu/workspace/wp-admin/admin.php:0
+[03-Aug-2016 19:45:34 UTC] PHP   2. do_action() /home/ubuntu/workspace/wp-admin/admin.php:236
+[03-Aug-2016 19:45:34 UTC] PHP   3. call_user_func_array:{/home/ubuntu/workspace/wp-includes/plugin.php:525}() /home/ubuntu/workspace/wp-includes/plugin.php:525
+[03-Aug-2016 19:45:34 UTC] PHP   4. Carouselck->render_edit() /home/ubuntu/workspace/wp-includes/plugin.php:525
+[03-Aug-2016 19:45:34 UTC] PHP   5. require_once() /home/ubuntu/workspace/wp-content/plugins/carousel-ck/carousel-ck.php:230
+[03-Aug-2016 19:45:34 UTC] PHP   6. wp_redirect() /home/ubuntu/workspace/wp-content/plugins/carousel-ck/includes/carouselck_edit.php:67
+[03-Aug-2016 19:45:34 UTC] PHP   7. header() /home/ubuntu/workspace/wp-includes/pluggable.php:1167
+[04-Aug-2016 13:01:32 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/wp-content/plugins/jetpack/modules/contact-form/grunion-contact-form.php on line 204
+[04-Aug-2016 13:01:32 UTC] PHP Stack trace:
+[04-Aug-2016 13:01:32 UTC] PHP   1. {main}() /home/ubuntu/workspace/wp-admin/admin-ajax.php:0
+[04-Aug-2016 13:01:32 UTC] PHP   2. do_action() /home/ubuntu/workspace/wp-admin/admin-ajax.php:89
+[04-Aug-2016 13:01:32 UTC] PHP   3. call_user_func_array:{/home/ubuntu/workspace/wp-includes/plugin.php:525}() /home/ubuntu/workspace/wp-includes/plugin.php:525
+[04-Aug-2016 13:01:32 UTC] PHP   4. wp_ajax_dashboard_widgets() /home/ubuntu/workspace/wp-includes/plugin.php:525
+[04-Aug-2016 13:01:32 UTC] PHP   5. set_current_screen() /home/ubuntu/workspace/wp-admin/includes/ajax-actions.php:312
+[04-Aug-2016 13:01:32 UTC] PHP   6. WP_Screen->set_current_screen() /home/ubuntu/workspace/wp-admin/includes/screen.php:223
+[04-Aug-2016 13:01:32 UTC] PHP   7. do_action() /home/ubuntu/workspace/wp-admin/includes/class-wp-screen.php:393
+[04-Aug-2016 13:01:32 UTC] PHP   8. call_user_func_array:{/home/ubuntu/workspace/wp-includes/plugin.php:525}() /home/ubuntu/workspace/wp-includes/plugin.php:525
+[04-Aug-2016 13:01:32 UTC] PHP   9. Grunion_Contact_Form_Plugin->unread_count() /home/ubuntu/workspace/wp-includes/plugin.php:525
+[05-Aug-2016 19:48:30 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/wp-content/plugins/jetpack/modules/contact-form/grunion-contact-form.php on line 204
+[05-Aug-2016 19:48:30 UTC] PHP Stack trace:
+[05-Aug-2016 19:48:30 UTC] PHP   1. {main}() /home/ubuntu/workspace/wp-admin/admin-ajax.php:0
+[05-Aug-2016 19:48:30 UTC] PHP   2. do_action() /home/ubuntu/workspace/wp-admin/admin-ajax.php:89
+[05-Aug-2016 19:48:30 UTC] PHP   3. call_user_func_array:{/home/ubuntu/workspace/wp-includes/plugin.php:525}() /home/ubuntu/workspace/wp-includes/plugin.php:525
+[05-Aug-2016 19:48:30 UTC] PHP   4. wp_ajax_dashboard_widgets() /home/ubuntu/workspace/wp-includes/plugin.php:525
+[05-Aug-2016 19:48:30 UTC] PHP   5. set_current_screen() /home/ubuntu/workspace/wp-admin/includes/ajax-actions.php:312
+[05-Aug-2016 19:48:30 UTC] PHP   6. WP_Screen->set_current_screen() /home/ubuntu/workspace/wp-admin/includes/screen.php:223
+[05-Aug-2016 19:48:30 UTC] PHP   7. do_action() /home/ubuntu/workspace/wp-admin/includes/class-wp-screen.php:393
+[05-Aug-2016 19:48:30 UTC] PHP   8. call_user_func_array:{/home/ubuntu/workspace/wp-includes/plugin.php:525}() /home/ubuntu/workspace/wp-includes/plugin.php:525
+[05-Aug-2016 19:48:30 UTC] PHP   9. Grunion_Contact_Form_Plugin->unread_count() /home/ubuntu/workspace/wp-includes/plugin.php:525
+[06-Aug-2016 15:31:53 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/wp-content/plugins/jetpack/modules/contact-form/grunion-contact-form.php on line 204
+[06-Aug-2016 15:31:53 UTC] PHP Stack trace:
+[06-Aug-2016 15:31:53 UTC] PHP   1. {main}() /home/ubuntu/workspace/wp-admin/admin-ajax.php:0
+[06-Aug-2016 15:31:53 UTC] PHP   2. do_action() /home/ubuntu/workspace/wp-admin/admin-ajax.php:89
+[06-Aug-2016 15:31:53 UTC] PHP   3. call_user_func_array:{/home/ubuntu/workspace/wp-includes/plugin.php:525}() /home/ubuntu/workspace/wp-includes/plugin.php:525
+[06-Aug-2016 15:31:53 UTC] PHP   4. wp_ajax_dashboard_widgets() /home/ubuntu/workspace/wp-includes/plugin.php:525
+[06-Aug-2016 15:31:53 UTC] PHP   5. set_current_screen() /home/ubuntu/workspace/wp-admin/includes/ajax-actions.php:312
+[06-Aug-2016 15:31:53 UTC] PHP   6. WP_Screen->set_current_screen() /home/ubuntu/workspace/wp-admin/includes/screen.php:223
+[06-Aug-2016 15:31:53 UTC] PHP   7. do_action() /home/ubuntu/workspace/wp-admin/includes/class-wp-screen.php:393
+[06-Aug-2016 15:31:53 UTC] PHP   8. call_user_func_array:{/home/ubuntu/workspace/wp-includes/plugin.php:525}() /home/ubuntu/workspace/wp-includes/plugin.php:525
+[06-Aug-2016 15:31:53 UTC] PHP   9. Grunion_Contact_Form_Plugin->unread_count() /home/ubuntu/workspace/wp-includes/plugin.php:525
+[09-Aug-2016 01:31:35 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/wp-content/plugins/jetpack/modules/contact-form/grunion-contact-form.php on line 204
+[09-Aug-2016 01:31:35 UTC] PHP Stack trace:
+[09-Aug-2016 01:31:35 UTC] PHP   1. {main}() /home/ubuntu/workspace/wp-admin/admin-ajax.php:0
+[09-Aug-2016 01:31:35 UTC] PHP   2. do_action() /home/ubuntu/workspace/wp-admin/admin-ajax.php:89
+[09-Aug-2016 01:31:35 UTC] PHP   3. call_user_func_array:{/home/ubuntu/workspace/wp-includes/plugin.php:525}() /home/ubuntu/workspace/wp-includes/plugin.php:525
+[09-Aug-2016 01:31:35 UTC] PHP   4. wp_ajax_dashboard_widgets() /home/ubuntu/workspace/wp-includes/plugin.php:525
+[09-Aug-2016 01:31:35 UTC] PHP   5. set_current_screen() /home/ubuntu/workspace/wp-admin/includes/ajax-actions.php:312
+[09-Aug-2016 01:31:35 UTC] PHP   6. WP_Screen->set_current_screen() /home/ubuntu/workspace/wp-admin/includes/screen.php:223
+[09-Aug-2016 01:31:35 UTC] PHP   7. do_action() /home/ubuntu/workspace/wp-admin/includes/class-wp-screen.php:393
+[09-Aug-2016 01:31:35 UTC] PHP   8. call_user_func_array:{/home/ubuntu/workspace/wp-includes/plugin.php:525}() /home/ubuntu/workspace/wp-includes/plugin.php:525
+[09-Aug-2016 01:31:35 UTC] PHP   9. Grunion_Contact_Form_Plugin->unread_count() /home/ubuntu/workspace/wp-includes/plugin.php:525
+[11-Aug-2016 13:58:23 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/wp-content/plugins/jetpack/modules/contact-form/grunion-contact-form.php on line 204
+[11-Aug-2016 13:58:23 UTC] PHP Stack trace:
+[11-Aug-2016 13:58:23 UTC] PHP   1. {main}() /home/ubuntu/workspace/wp-admin/admin-ajax.php:0
+[11-Aug-2016 13:58:23 UTC] PHP   2. do_action() /home/ubuntu/workspace/wp-admin/admin-ajax.php:89
+[11-Aug-2016 13:58:23 UTC] PHP   3. call_user_func_array:{/home/ubuntu/workspace/wp-includes/plugin.php:525}() /home/ubuntu/workspace/wp-includes/plugin.php:525
+[11-Aug-2016 13:58:23 UTC] PHP   4. wp_ajax_dashboard_widgets() /home/ubuntu/workspace/wp-includes/plugin.php:525
+[11-Aug-2016 13:58:23 UTC] PHP   5. set_current_screen() /home/ubuntu/workspace/wp-admin/includes/ajax-actions.php:312
+[11-Aug-2016 13:58:23 UTC] PHP   6. WP_Screen->set_current_screen() /home/ubuntu/workspace/wp-admin/includes/screen.php:223
+[11-Aug-2016 13:58:23 UTC] PHP   7. do_action() /home/ubuntu/workspace/wp-admin/includes/class-wp-screen.php:393
+[11-Aug-2016 13:58:23 UTC] PHP   8. call_user_func_array:{/home/ubuntu/workspace/wp-includes/plugin.php:525}() /home/ubuntu/workspace/wp-includes/plugin.php:525
+[11-Aug-2016 13:58:23 UTC] PHP   9. Grunion_Contact_Form_Plugin->unread_count() /home/ubuntu/workspace/wp-includes/plugin.php:525
+[15-Aug-2016 17:05:28 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/wp-content/plugins/jetpack/modules/contact-form/grunion-contact-form.php on line 204
+[15-Aug-2016 17:05:28 UTC] PHP Stack trace:
+[15-Aug-2016 17:05:28 UTC] PHP   1. {main}() /home/ubuntu/workspace/wp-admin/admin-ajax.php:0
+[15-Aug-2016 17:05:28 UTC] PHP   2. do_action() /home/ubuntu/workspace/wp-admin/admin-ajax.php:89
+[15-Aug-2016 17:05:28 UTC] PHP   3. call_user_func_array:{/home/ubuntu/workspace/wp-includes/plugin.php:525}() /home/ubuntu/workspace/wp-includes/plugin.php:525
+[15-Aug-2016 17:05:28 UTC] PHP   4. wp_ajax_dashboard_widgets() /home/ubuntu/workspace/wp-includes/plugin.php:525
+[15-Aug-2016 17:05:28 UTC] PHP   5. set_current_screen() /home/ubuntu/workspace/wp-admin/includes/ajax-actions.php:312
+[15-Aug-2016 17:05:28 UTC] PHP   6. WP_Screen->set_current_screen() /home/ubuntu/workspace/wp-admin/includes/screen.php:223
+[15-Aug-2016 17:05:28 UTC] PHP   7. do_action() /home/ubuntu/workspace/wp-admin/includes/class-wp-screen.php:393
+[15-Aug-2016 17:05:28 UTC] PHP   8. call_user_func_array:{/home/ubuntu/workspace/wp-includes/plugin.php:525}() /home/ubuntu/workspace/wp-includes/plugin.php:525
+[15-Aug-2016 17:05:28 UTC] PHP   9. Grunion_Contact_Form_Plugin->unread_count() /home/ubuntu/workspace/wp-includes/plugin.php:525
+[22-Aug-2016 22:58:46 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/wp-content/plugins/jetpack/modules/contact-form/grunion-contact-form.php on line 204
+[22-Aug-2016 22:58:46 UTC] PHP Stack trace:
+[22-Aug-2016 22:58:46 UTC] PHP   1. {main}() /home/ubuntu/workspace/wp-admin/admin-ajax.php:0
+[22-Aug-2016 22:58:46 UTC] PHP   2. do_action() /home/ubuntu/workspace/wp-admin/admin-ajax.php:89
+[22-Aug-2016 22:58:46 UTC] PHP   3. call_user_func_array:{/home/ubuntu/workspace/wp-includes/plugin.php:525}() /home/ubuntu/workspace/wp-includes/plugin.php:525
+[22-Aug-2016 22:58:46 UTC] PHP   4. wp_ajax_dashboard_widgets() /home/ubuntu/workspace/wp-includes/plugin.php:525
+[22-Aug-2016 22:58:46 UTC] PHP   5. set_current_screen() /home/ubuntu/workspace/wp-admin/includes/ajax-actions.php:312
+[22-Aug-2016 22:58:46 UTC] PHP   6. WP_Screen->set_current_screen() /home/ubuntu/workspace/wp-admin/includes/screen.php:223
+[22-Aug-2016 22:58:46 UTC] PHP   7. do_action() /home/ubuntu/workspace/wp-admin/includes/class-wp-screen.php:393
+[22-Aug-2016 22:58:46 UTC] PHP   8. call_user_func_array:{/home/ubuntu/workspace/wp-includes/plugin.php:525}() /home/ubuntu/workspace/wp-includes/plugin.php:525
+[22-Aug-2016 22:58:46 UTC] PHP   9. Grunion_Contact_Form_Plugin->unread_count() /home/ubuntu/workspace/wp-includes/plugin.php:525
+[30-Aug-2016 19:18:37 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/wp-content/plugins/jetpack/modules/contact-form/grunion-contact-form.php on line 204
+[30-Aug-2016 19:18:37 UTC] PHP Stack trace:
+[30-Aug-2016 19:18:37 UTC] PHP   1. {main}() /home/ubuntu/workspace/wp-admin/admin-ajax.php:0
+[30-Aug-2016 19:18:37 UTC] PHP   2. do_action() /home/ubuntu/workspace/wp-admin/admin-ajax.php:89
+[30-Aug-2016 19:18:37 UTC] PHP   3. call_user_func_array:{/home/ubuntu/workspace/wp-includes/plugin.php:525}() /home/ubuntu/workspace/wp-includes/plugin.php:525
+[30-Aug-2016 19:18:37 UTC] PHP   4. wp_ajax_dashboard_widgets() /home/ubuntu/workspace/wp-includes/plugin.php:525
+[30-Aug-2016 19:18:37 UTC] PHP   5. set_current_screen() /home/ubuntu/workspace/wp-admin/includes/ajax-actions.php:312
+[30-Aug-2016 19:18:37 UTC] PHP   6. WP_Screen->set_current_screen() /home/ubuntu/workspace/wp-admin/includes/screen.php:223
+[30-Aug-2016 19:18:37 UTC] PHP   7. do_action() /home/ubuntu/workspace/wp-admin/includes/class-wp-screen.php:393
+[30-Aug-2016 19:18:37 UTC] PHP   8. call_user_func_array:{/home/ubuntu/workspace/wp-includes/plugin.php:525}() /home/ubuntu/workspace/wp-includes/plugin.php:525
+[30-Aug-2016 19:18:37 UTC] PHP   9. Grunion_Contact_Form_Plugin->unread_count() /home/ubuntu/workspace/wp-includes/plugin.php:525
