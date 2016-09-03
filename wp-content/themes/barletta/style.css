@@ -3,13 +3,13 @@ Theme Name: Barletta
 Theme URI: http://moozthemes.com/barletta-wordpress-theme
 Author: MOOZ Themes
 Author URI: http://moozthemes.com
-Description: Barletta is a light, elegant and clean design WordPress blog theme which is mainly designed for lifestyle, travel, fashion, food, personal blog and other publishers. Theme is carefully crafted with attention to details and love. Barletta blog theme is fully responsive and your web site will adapt to display on all types of devices. Theme is based on the versatile Bootstrap framework which is known for being reliable and well made making it friendly for developers. Overall, Barletta is a visually stunning theme with polished typography and simple design, great for bloggers. Now theme is optimized to work with WooCommerce, Contact Form 7 and other popular free and premium plugins. Enjoy writing, enjoy blogging!
-Version: 1.0.6
+Description: Barletta is a light, elegant and clean design WordPress blog theme which is mainly designed for lifestyle, travel, fashion, food, personal blog and other publishers. Theme is carefully crafted with attention to details and love. Barletta blog theme is fully responsive and your web site will adapt to display on all types of devices. Theme is based on the versatile Bootstrap framework which is known for being reliable and well made making it friendly for developers. Overall, Barletta is a visually stunning theme with polished typography and simple design, great for bloggers. Now theme is optimized to work with JetPack, WooCommerce, Contact Form 7, Mailchimps and other popular free and premium plugins. Enjoy writing, enjoy blogging!
+Version: 1.0.8
 License: GNU General Public License v3.0
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 Text Domain: barletta
 Domain Path: /languages/
-Tags: one-column, two-columns, left-sidebar, right-sidebar, custom-background, custom-menu, featured-images, full-width-template, theme-options, threaded-comments, holiday
+Tags: one-column, two-columns, left-sidebar, right-sidebar, custom-colors, custom-background, custom-menu, featured-images, full-width-template, theme-options, threaded-comments, holiday
 */
 
 /*------------------------------------------------------------------
@@ -469,6 +469,13 @@ dd {
 		position: relative;
 		height: auto;
 	}
+	.mz-slider .slider-item h2 {
+		padding: 15px 20px;
+		font-size: 21px;		
+		bottom: -10px;
+		left: 45px;
+		right: 45px;
+	}
 }
 
 /**
@@ -566,6 +573,14 @@ dd {
 	text-align: center;
 	line-height: 60px;
 	font-size: 30px;
+}
+
+/* for mobile */
+@media (max-width: 768px) {
+	.bx-wrapper .bx-controls-direction a {
+		width: 35px;
+		font-size: 18px;
+	}
 }
 
 .bx-wrapper .bx-controls-direction a.disabled {
@@ -1746,6 +1761,22 @@ and (max-width : 480px) {
 	color: #fff;
 }
 
+.footer-fullwidth .widget-title {
+	text-align: center;
+}
+
+.footer-fullwidth .widget-title:after {
+	background-color: rgba(255, 255, 255, 0);
+}
+
+.footer-fullwidth .widget-title span {
+	float: none;
+	padding: 5px 15px;
+	margin-right: 0px;
+	font: 400 16px/22px Roboto, sans-serif;
+	color: #FFFFFF;
+}
+
 /*--------------------------------------------------------------
 	Woocommerce
 --------------------------------------------------------------*/
@@ -1907,4 +1938,126 @@ and (max-width : 480px) {
 
 .widget.woocommerce li {
 	border-bottom: none;
+}
+
+/*--------------------------------------------------------------
+	Mailchimps
+--------------------------------------------------------------*/
+
+.widget_mc4wp_form_widget {
+	background-color: #ffffff;	
+}
+
+.widget_mc4wp_form_widget .widget-title:after {
+	background-color: rgba(0, 0, 0, 0);	
+}
+
+.mc4wp-form {
+	padding: 0 30px 30px;
+}
+
+.mc4wp-form-fields {
+	overflow: auto;
+}
+.mc4wp-form-fields p {
+	font-size: 13px;
+	font-weight: 400;
+	line-height: 140%;
+	color: #8d8ea2;
+	margin-bottom: 20px;
+}
+
+.mc4wp-form-fields input[type="submit"] {
+	padding: 10px 30px;
+	float: right;
+}
+
+.mc4wp-form-fields input[type="email"] {
+	width: 100%;
+}
+
+.mc4wp-form-fields label {
+	font-family: "Raleway", Sans-serif;
+	color: #373737;
+}
+
+.mc4wp-alert {
+	padding: 20px;
+	background-color: #f5f5f5;
+	margin-top: 20px;
+}
+
+.mc4wp-alert p {
+	line-height: 140%;
+	font-size: 13px;
+}
+
+.mc4wp-alert .mc4wp-success {
+	background-color: #7dc07b;
+}
+
+/* instagram widget support */
+
+ul.instagram-pics li {
+	width: 33.3%;
+	padding: 0px 3px 5px;
+	display: inline;
+	float: left;
+	overflow: hidden;
+	border-bottom: none;
+	margin: 0px;
+}
+
+
+.footer-fullwidth ul.instagram-pics li img {
+	-webkit-transition: all 0.2s ease-out;
+	-moz-transition: all 0.2s ease-out;
+	-o-transition: all 0.2s ease-out;
+	transition: all 0.2s ease-out;
+}
+
+.footer-fullwidth ul.instagram-pics li img:hover {
+	opacity: 0.8;
+}
+
+.footer-fullwidth ul.instagram-pics li {
+	width: 12.5%;
+	padding: 0px;
+	background-color: #000;
+}
+
+/* for mobile */
+@media (max-width: 768px) {
+	.footer-fullwidth ul.instagram-pics li {
+		width: 50%;
+		padding: 0px;
+	}
+}
+
+.null-instagram-feed {
+	position: relative;
+}
+
+.footer-fullwidth .null-instagram-feed p a {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translateX(-50%);
+	background-color: #282829;
+	color: #fff;
+	z-index: 1000;
+	padding: 3px 25px;
+	font-size: 12px;
+}
+
+.null-instagram-feed p a {
+	position: absolute;
+	left: 50%;
+	transform: translateX(-50%);
+	text-align: center;
+	margin: 10px;
+}
+
+.footer-fullwidth .widget.null-instagram-feed {
+	margin-bottom: 0px;
 }

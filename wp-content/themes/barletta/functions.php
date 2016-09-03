@@ -322,6 +322,15 @@ function barletta_widgets_init() {
 		'before_title'  => '<div class="widget-title"><span>',
 		'after_title'   => '</span></div>',
 	) );
+	register_sidebar( array(
+		'name'          => __( 'Footer Full-Width Widget', 'barletta' ),
+		'id'            => 'footer-fullwidth-widget',
+		'description'   => __( 'For full width widgets. Appears in the footer section of the site.', 'barletta' ),
+		'before_widget' => '<div id="%1$s" class="widget %2$s">',
+		'after_widget'  => '</div>',
+		'before_title'  => '<div class="widget-title"><span>',
+		'after_title'   => '</span></div>',
+	) );
 	// WooCommerce Sidebar
 	if( class_exists( 'WooCommerce' ) ) {
 		register_sidebar( array(

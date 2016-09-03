@@ -1,5 +1,5 @@
 ﻿Theme Name : Barletta
-Version    : 1.0.5
+Version    : 1.0.8
 Theme URL  : http://moozthemes.com/barletta-wordpress-theme
 Theme Documentation  : http://moozthemes.com/barletta-wordpress-theme-documentation
 
@@ -96,3 +96,10 @@ Drag and drop these widgets to above two widget areas and arrange them as you li
 1.0.6 - 02.08.2016
 * Fixed issue with WooCommerce sidebar
 * Fixed issue with category submenu active color
+
+1.0.7 - 05.08.2016
+* Added Mailchimps plugin support
+
+1.0.8 - 02.09.2016
+* Added WP Instagram Widget plugin support
+* Fixed issue with responsive slider title on mobile phones

@@ -173,3 +173,51 @@
 [30-Aug-2016 19:18:37 UTC] PHP   7. do_action() /home/ubuntu/workspace/wp-admin/includes/class-wp-screen.php:393
 [30-Aug-2016 19:18:37 UTC] PHP   8. call_user_func_array:{/home/ubuntu/workspace/wp-includes/plugin.php:525}() /home/ubuntu/workspace/wp-includes/plugin.php:525
 [30-Aug-2016 19:18:37 UTC] PHP   9. Grunion_Contact_Form_Plugin->unread_count() /home/ubuntu/workspace/wp-includes/plugin.php:525
+[01-Sep-2016 00:33:23 UTC] PHP Warning:  Illegal string offset 'google' in /home/ubuntu/workspace/wp-content/plugins/jetpack/modules/verification-tools/blog-verification-tools.php on line 104
+[01-Sep-2016 00:33:23 UTC] PHP Stack trace:
+[01-Sep-2016 00:33:23 UTC] PHP   1. {main}() /home/ubuntu/workspace/wp-admin/tools.php:0
+[01-Sep-2016 00:33:23 UTC] PHP   2. do_action() /home/ubuntu/workspace/wp-admin/tools.php:115
+[01-Sep-2016 00:33:23 UTC] PHP   3. call_user_func_array:{/home/ubuntu/workspace/wp-includes/plugin.php:524}() /home/ubuntu/workspace/wp-includes/plugin.php:524
+[01-Sep-2016 00:33:23 UTC] PHP   4. jetpack_verification_tool_box() /home/ubuntu/workspace/wp-includes/plugin.php:524
+[01-Sep-2016 00:33:23 UTC] PHP   5. jetpack_verification_options_form() /home/ubuntu/workspace/wp-content/plugins/jetpack/modules/verification-tools/blog-verification-tools.php:181
+[01-Sep-2016 00:33:23 UTC] PHP Warning:  Illegal string offset 'bing' in /home/ubuntu/workspace/wp-content/plugins/jetpack/modules/verification-tools/blog-verification-tools.php on line 104
+[01-Sep-2016 00:33:23 UTC] PHP Stack trace:
+[01-Sep-2016 00:33:23 UTC] PHP   1. {main}() /home/ubuntu/workspace/wp-admin/tools.php:0
+[01-Sep-2016 00:33:23 UTC] PHP   2. do_action() /home/ubuntu/workspace/wp-admin/tools.php:115
+[01-Sep-2016 00:33:23 UTC] PHP   3. call_user_func_array:{/home/ubuntu/workspace/wp-includes/plugin.php:524}() /home/ubuntu/workspace/wp-includes/plugin.php:524
+[01-Sep-2016 00:33:23 UTC] PHP   4. jetpack_verification_tool_box() /home/ubuntu/workspace/wp-includes/plugin.php:524
+[01-Sep-2016 00:33:23 UTC] PHP   5. jetpack_verification_options_form() /home/ubuntu/workspace/wp-content/plugins/jetpack/modules/verification-tools/blog-verification-tools.php:181
+[01-Sep-2016 00:33:23 UTC] PHP Warning:  Illegal string offset 'pinterest' in /home/ubuntu/workspace/wp-content/plugins/jetpack/modules/verification-tools/blog-verification-tools.php on line 104
+[01-Sep-2016 00:33:23 UTC] PHP Stack trace:
+[01-Sep-2016 00:33:23 UTC] PHP   1. {main}() /home/ubuntu/workspace/wp-admin/tools.php:0
+[01-Sep-2016 00:33:23 UTC] PHP   2. do_action() /home/ubuntu/workspace/wp-admin/tools.php:115
+[01-Sep-2016 00:33:23 UTC] PHP   3. call_user_func_array:{/home/ubuntu/workspace/wp-includes/plugin.php:524}() /home/ubuntu/workspace/wp-includes/plugin.php:524
+[01-Sep-2016 00:33:23 UTC] PHP   4. jetpack_verification_tool_box() /home/ubuntu/workspace/wp-includes/plugin.php:524
+[01-Sep-2016 00:33:23 UTC] PHP   5. jetpack_verification_options_form() /home/ubuntu/workspace/wp-content/plugins/jetpack/modules/verification-tools/blog-verification-tools.php:181
+[03-Sep-2016 19:15:19 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/wp-content/plugins/image-caption-hover/grid_builder.php on line 8
+[03-Sep-2016 19:15:19 UTC] PHP Stack trace:
+[03-Sep-2016 19:15:19 UTC] PHP   1. {main}() /home/ubuntu/workspace/wp-admin/admin.php:0
+[03-Sep-2016 19:15:19 UTC] PHP   2. do_action() /home/ubuntu/workspace/wp-admin/admin.php:222
+[03-Sep-2016 19:15:19 UTC] PHP   3. call_user_func_array:{/home/ubuntu/workspace/wp-includes/plugin.php:524}() /home/ubuntu/workspace/wp-includes/plugin.php:524
+[03-Sep-2016 19:15:19 UTC] PHP   4. Image_Caption_Hover->render_grid_builder() /home/ubuntu/workspace/wp-includes/plugin.php:524
+[03-Sep-2016 19:15:19 UTC] PHP   5. include() /home/ubuntu/workspace/wp-content/plugins/image-caption-hover/plugin.class.php:101
+[03-Sep-2016 21:47:29 UTC] PHP Fatal error:  Uncaught exception 'Facebook\FacebookSDKException' with message 'You must provide or set a default application id.' in /home/ubuntu/workspace/wp-content/plugins/facebook-events-importer/assets/includes/facebook-php-sdk-v4-4.0-dev/src/Facebook/FacebookSession.php:320
+Stack trace:
+#0 /home/ubuntu/workspace/wp-content/plugins/facebook-events-importer/assets/includes/facebook-php-sdk-v4-4.0-dev/src/Facebook/FacebookSession.php(287): Facebook\FacebookSession::_getTargetAppId(NULL)
+#1 /home/ubuntu/workspace/wp-content/plugins/facebook-events-importer/assets/includes/fb_import_action.php(40): Facebook\FacebookSession::newAppSession()
+#2 /home/ubuntu/workspace/wp-content/plugins/facebook-events-importer/facebook_events_importer.php(124): fbe_facebook_sdk('utm.edss', false, false)
+#3 [internal function]: fbe_callback('')
+#4 /home/ubuntu/workspace/wp-includes/plugin.php(524): call_user_func_array('fbe_callback', Array)
+#5 /home/ubuntu/workspace/wp-admin/admin-ajax.php(91): do_action('wp_ajax_faceboo...')
+#6 {main}
+  th in /home/ubuntu/workspace/wp-content/plugins/facebook-events-importer/assets/includes/facebook-php-sdk-v4-4.0-dev/src/Facebook/FacebookSession.php on line 320
+[03-Sep-2016 21:48:05 UTC] PHP Fatal error:  Uncaught exception 'Facebook\FacebookSDKException' with message 'You must provide or set a default application id.' in /home/ubuntu/workspace/wp-content/plugins/facebook-events-importer/assets/includes/facebook-php-sdk-v4-4.0-dev/src/Facebook/FacebookSession.php:320
+Stack trace:
+#0 /home/ubuntu/workspace/wp-content/plugins/facebook-events-importer/assets/includes/facebook-php-sdk-v4-4.0-dev/src/Facebook/FacebookSession.php(287): Facebook\FacebookSession::_getTargetAppId(NULL)
+#1 /home/ubuntu/workspace/wp-content/plugins/facebook-events-importer/assets/includes/fb_import_action.php(40): Facebook\FacebookSession::newAppSession()
+#2 /home/ubuntu/workspace/wp-content/plugins/facebook-events-importer/facebook_events_importer.php(124): fbe_facebook_sdk('utm.edss', false, false)
+#3 [internal function]: fbe_callback('')
+#4 /home/ubuntu/workspace/wp-includes/plugin.php(524): call_user_func_array('fbe_callback', Array)
+#5 /home/ubuntu/workspace/wp-admin/admin-ajax.php(91): do_action('wp_ajax_faceboo...')
+#6 {main}
+  th in /home/ubuntu/workspace/wp-content/plugins/facebook-events-importer/assets/includes/facebook-php-sdk-v4-4.0-dev/src/Facebook/FacebookSession.php on line 320

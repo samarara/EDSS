@@ -26,6 +26,10 @@
 				</div>
 			</div>
 
+			<div class="footer-fullwidth">
+					<?php get_sidebar( 'fullwidth-footer' ); ?>
+			</div>
+
 			<div class="footer-bottom">
 				<?php do_action('barletta_footer'); ?>
 			</div>

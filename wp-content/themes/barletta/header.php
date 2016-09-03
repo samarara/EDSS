@@ -52,7 +52,7 @@
 		if ($layout_class == '') $layout_class = "mz-sidebar-right";
 	?>
 
-		<div class="container">
+		<div id="content" class="container">
 		<section>
 			<div class="row">
 				<div class="<?php echo barletta_content_bootstrap_classes(); ?> <?php echo $layout_class; ?>">

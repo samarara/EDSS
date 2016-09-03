@@ -2,7 +2,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Barletta Theme\n"
-"POT-Creation-Date: 2016-03-22 22:16+0200\n"
+"POT-Creation-Date: 2016-09-02 15:14+0300\n"
 "PO-Revision-Date: 2015-04-04 15:03+0200\n"
 "Last-Translator: Aigars Silkalns <a.silkalns@gmail.com>\n"
 "Language-Team: MOOZ Themes <info@moozthemes.com>\n"
@@ -19,66 +19,6 @@ msgstr ""
 
 #: ../404.php:12
 msgid "Page not found"
-msgstr ""
-
-#: ../archive.php:25
-#, php-format
-msgid "Author: %s"
-msgstr ""
-
-#: ../archive.php:28
-#, php-format
-msgid "Day: %s"
-msgstr ""
-
-#: ../archive.php:31
-#, php-format
-msgid "Month: %s"
-msgstr ""
-
-#: ../archive.php:34
-#, php-format
-msgid "Year: %s"
-msgstr ""
-
-#: ../archive.php:37
-msgid "Asides"
-msgstr ""
-
-#: ../archive.php:40
-msgid "Galleries"
-msgstr ""
-
-#: ../archive.php:43
-msgid "Images"
-msgstr ""
-
-#: ../archive.php:46
-msgid "Videos"
-msgstr ""
-
-#: ../archive.php:49
-msgid "Quotes"
-msgstr ""
-
-#: ../archive.php:52
-msgid "Links"
-msgstr ""
-
-#: ../archive.php:55
-msgid "Statuses"
-msgstr ""
-
-#: ../archive.php:58
-msgid "Audios"
-msgstr ""
-
-#: ../archive.php:61
-msgid "Chats"
-msgstr ""
-
-#: ../archive.php:64 ../sidebar.php:35
-msgid "Archives"
 msgstr ""
 
 #: ../comments.php:25
@@ -154,63 +94,63 @@ msgstr ""
 msgid "Full Width"
 msgstr ""
 
-#: ../functions.php:15
-msgid "Logo Only"
-msgstr ""
-
-#: ../functions.php:16
-msgid "Logo + Tagline"
-msgstr ""
-
-#: ../functions.php:17
-msgid "Title Only"
-msgstr ""
-
-#: ../functions.php:18
-msgid "Title + Tagline"
-msgstr ""
-
-#: ../functions.php:59
+#: ../functions.php:47
 msgid "Main Menu"
 msgstr ""
 
-#: ../functions.php:202
+#: ../functions.php:281
 msgid "Primary Sidebar"
 msgstr ""
 
-#: ../functions.php:204
+#: ../functions.php:283
 msgid "Main sidebar that appears on the left."
 msgstr ""
 
-#: ../functions.php:211
+#: ../functions.php:290
 msgid "Content Sidebar"
 msgstr ""
 
-#: ../functions.php:213
+#: ../functions.php:292
 msgid "Additional sidebar that appears on the right."
 msgstr ""
 
-#: ../functions.php:220
+#: ../functions.php:299
 msgid "Footer Widget 1"
 msgstr ""
 
-#: ../functions.php:222 ../functions.php:231 ../functions.php:240
+#: ../functions.php:301 ../functions.php:310 ../functions.php:319
 msgid "Appears in the footer section of the site."
 msgstr ""
 
-#: ../functions.php:229
+#: ../functions.php:308
 msgid "Footer Widget 2"
 msgstr ""
 
-#: ../functions.php:238
+#: ../functions.php:317
 msgid "Footer Widget 3"
 msgstr ""
 
-#: ../functions.php:268
+#: ../functions.php:326
+msgid "Footer Full-Width Widget"
+msgstr ""
+
+#: ../functions.php:328
+msgid "For full width widgets. Appears in the footer section of the site."
+msgstr ""
+
+#: ../functions.php:337
+msgid "WooCommerce Sidebar"
+msgstr ""
+
+#: ../functions.php:339
+msgid "The widgets added in this sidebar will appear in WooCommerce pages."
+msgstr ""
+
+#: ../functions.php:368
 msgid ". All rights reserved."
 msgstr ""
 
-#: ../functions.php:274
+#: ../functions.php:374
 #, php-format
 msgid "Theme by %1$s Powered by %2$s"
 msgstr ""
@@ -231,28 +171,40 @@ msgstr ""
 msgid "Choose between different layout options to be used as default"
 msgstr ""
 
-#: ../inc/customizer.php:55
-msgid "Display Comments on Static Pages?"
-msgstr ""
-
-#: ../inc/customizer.php:68
+#: ../inc/customizer.php:56
 msgid "Slider Settings"
 msgstr ""
 
-#: ../inc/customizer.php:70
+#: ../inc/customizer.php:58
 msgid "Change slider settings here."
 msgstr ""
 
-#: ../inc/customizer.php:84
+#: ../inc/customizer.php:72
 msgid "Choose a category."
 msgstr ""
 
-#: ../inc/customizer.php:98
+#: ../inc/customizer.php:86
 msgid "Show Slider?"
 msgstr ""
 
-#: ../inc/customizer.php:115
-msgid "Logo"
+#: ../inc/customizer.php:103
+msgid "Accent color"
+msgstr ""
+
+#: ../inc/customizer.php:116
+msgid "Links hover color"
+msgstr ""
+
+#: ../inc/customizer.php:117
+msgid "Hover color for links in text, headings and menu"
+msgstr ""
+
+#: ../inc/customizer.php:130
+msgid "Titles background color"
+msgstr ""
+
+#: ../inc/customizer.php:131
+msgid "Titles font color is white, please chose dark color for titles background"
 msgstr ""
 
 #: ../inc/extras.php:79
@@ -441,7 +393,7 @@ msgstr ""
 
 #: ../searchform.php:14
 msgctxt "placeholder"
-msgid "Search&hellp;"
+msgid "Search & help"
 msgstr ""
 
 #: ../searchform.php:14
@@ -452,4 +404,8 @@ msgstr ""
 #: ../searchform.php:16
 msgctxt "submit button"
 msgid "Search"
+msgstr ""
+
+#: ../sidebar.php:39
+msgid "Archives"
 msgstr ""
